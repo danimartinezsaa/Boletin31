@@ -27,6 +27,17 @@ public class Boletin31{
         empleados.add(jefe1);
         empleados.add(secretario1);
         empleados.add(vendedor1);
+        
+        
+        vendedor1.setAntiguedad(1);
+        jefe1.setAntiguedad(3);
+        secretario1.setAntiguedad(3);
+        
+        secretario1.setSupervisor(vendedor1);
+        
+        System.out.println(jefe1.toString());
+        System.out.println(secretario1.toString());
+        System.out.println(vendedor1.toString());
     }
     
 }

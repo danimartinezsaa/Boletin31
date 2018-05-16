@@ -33,6 +33,23 @@ public abstract class Empleado{
     }
     
     public abstract void incrementarSalario();
+
+    public double getAntiguedad(){
+        return antiguedad;
+    }
+
+    public void setAntiguedad(double antiguedad){
+        this.antiguedad=antiguedad;
+    }
+
+    public Empleado getSupervisor(){
+        return supervisor;
+    }
+
+    public void setSupervisor(Empleado supervisor){
+        this.supervisor=supervisor;
+    }
+    
     
     
 }
